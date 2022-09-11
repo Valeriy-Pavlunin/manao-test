@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*
+Header
+*/
+
+.container {
+    width: 95%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container li {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.logo {
+    font-size: large;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.container li+li {
+    margin-left: 20px;
+}
+
+.container a {
+    color: black;
+}
+
+.links-to-form {
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.links-to-form:hover {
+    text-decoration: underline;
+}
+
+
+/*
+Reg-form
+*/
+
+.form-container {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    box-sizing: border-box;
+    line-height: 20px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.registerbtn {
+    background-color: #1e231c;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 1em;
+}
+
+.error-message {
+    font-style: italic;
+    color: rgb(252, 52, 52);
+}
+
+.exit-btn {
+    background-color: #1e231c;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: all 0.3s;
+    border-radius: 2px;
+}
+
+.exit-btn:hover {
+    background-color: #ddd;
+    margin-left: 15px;
+    color: black;
+}
